@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCloudMeatball } from "react-icons/fa";
 export const Header = () => {
   return (
     <header className="header" data-testid="header">
@@ -9,7 +10,9 @@ export const Header = () => {
         <div className="settings">
           <ul>
             <li>+</li>
-            <li>light bulb</li>
+            <li>
+              <FaCloudMeatball />
+            </li>
           </ul>
         </div>
       </nav>
